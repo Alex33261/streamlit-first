@@ -1,8 +1,9 @@
 import streamlit as st
 
 
-st.title('Activite Guillaume')
-st.subheader('To-do list pour une reprise en douceur')
+st.title('To do list pour une reprise en douceur')
+
+st.subheader('Guillaume')
 st.write('This is some text.')
 st.markdown(st.subheader("- LLM "))
 st.markdown("- Item 2")
@@ -13,12 +14,10 @@ message.write("Hello Guillaume")
 
 st.divider()
 
-st.title('Activite Souliman')
-st.subheader('A subheader with _italics_ :blue[colors] and emojis :sunglasses:')
+st.subheader('Activite Souliman')
 st.text('This is some text.')
 
 st.divider()
 
-st.title('Activite François')
-st.subheader('A subheader with _italics_ :blue[colors] and emojis :sunglasses:')
+st.subheader('Activite François')
 st.text('This is some text.')
