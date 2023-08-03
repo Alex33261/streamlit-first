@@ -4,6 +4,9 @@ st.title('Activite Guillaume')
 st.subheader('A subheader with _italics_ :blue[colors] and emojis :sunglasses:')
 st.text('This is some text.')
 
+message = st.chat_message("assistant")
+message.write("Hello Guillaume")
+
 st.divider()
 
 st.title('Activite Souliman')
