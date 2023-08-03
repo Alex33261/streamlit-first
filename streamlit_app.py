@@ -1,16 +1,12 @@
 import streamlit as st
 
-[theme]
-base="dark"
-primaryColor="purple"
-
-[theme]
-font="Century Gothic"
-
 
 st.title('Activite Guillaume')
-st.subheader('A subheader with _italics_ :blue[colors] and emojis :sunglasses:')
+st.subheader('To-do list pour une reprise en douceur')
 st.write('This is some text.')
+st.markdown("- Item 1")
+st.markdown("- Item 2")
+st.markdown("- Item 3")
 
 message = st.chat_message("assistant")
 message.write("Hello Guillaume")
