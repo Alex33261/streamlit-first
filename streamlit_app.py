@@ -8,7 +8,7 @@ message = st.chat_message("assistant")
 message.write("Hello Guillaume")
 
 st.markdown(st.subheader("- LLM "))
-st.write('Comme tu le vois, on a découvert streamlit. A mon avis c est vraiment pas mal pour des petits formats d applis et je vois parfaitement ce genre de format pour le projet LLM')
+st.write('Comme tu le vois, on a découvert streamlit. A mon avis c est vraiment pas mal pour des petits formats d applis et je vois parfaitement ce genre de format pour le projet LLM. Tu peux aussi deployer des applis avec HuggingFace en streamlit et c est tres rapide.')
 st.markdown("- Scentuarize")
 st.markdown("- Trois")
 
