@@ -16,14 +16,14 @@ st.markdown("- Trois")
 st.divider()
 
 st.subheader('Souliman')
-message = st.chat_message("assistant2")
+message = st.chat_message("assistant")
 message.write("Hello Souliman, comment ca va ?")
 st.text('This is some text.')
 
 st.divider()
 
 st.subheader('Activite François')
-message = st.chat_message("assistant3")
+message = st.chat_message("assistant")
 message.write("Hello Souliman, comment ca va mon gâte?")
 
 st.text('This is some text.')
