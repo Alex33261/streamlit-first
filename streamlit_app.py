@@ -2,12 +2,11 @@ import streamlit as st
 from PIL import Image
 
 st.balloons()
-st.toast('Mr Stay-Puft')
 
 image = Image.open('GuillaumeSourireMagique.jpg')
 st.image(image, caption='Un BG se cache dans cette image. Pouvez-vous le retrouver ?')
 
-st.title('To-do list pour une reprise en douceur')
+st.title('C est la reprise !')
 
 message = st.chat_message("assistant")
 message.write("Note importante : A compter de votre retour, tous vos projets doivent être dans Orchestra. Pensez donc à bien mettre à jour tous vos projets dans le logiciel. Le lien est le suivant https://mane.orchestra-ppm.cloud/cpms/")
@@ -32,6 +31,8 @@ st.markdown("- Gestion de stagiaires : Mathilde et Chloe")
 st.write('Mathilde sera parti quand tu seras de retour. Son code est consigne dans une dossier qui s appelle Sources et auquel elle nous a donne acces. Tu trouveras dans ta boite mail le lien à son drive. Voila ce que j aimerais que tu fasses')
 st.write('1 - Prendre son dossier dans le cloud et le mettre au propre dans Gitlab - le repo existe deja')
 st.write('2 - Te rapprocher de Fanny pour promouvoir l outil dans son equipe car Mathilde n a pas eu beaucoup de temps pour le faire.')
+
+st.write('Pour Chloe, on s est vu ensemble ce matin du 4 aout et les choses sont claires pour elle. Elle va se pencher sur une appli ou il y a du click event. Regarde avec elle si elle a des galeres de maniere generale.
 
 st.divider()
 
