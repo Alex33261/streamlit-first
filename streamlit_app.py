@@ -66,6 +66,8 @@ st.write("Caler un rendez-vous Deborah. J ai deux projets en tete pour elle incl
 st.markdown("- Projet avec Reality")
 st.write("Construire les differents univers et les peupler. On validera une une maquette finale avec les differents contenus quand je reviens.")
 
+st.markdown("- Tracking des applis")
+st.write("Mettre les trackers dans les applis qui en ont besoin. Analyser les usages et construire le nouveau portail.")
 
 
 
