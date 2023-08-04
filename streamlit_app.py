@@ -19,11 +19,16 @@ message.write("Guillaume")
 st.markdown("- LLM ")
 st.write('Comme tu le vois, on a découvert streamlit. A mon avis c est vraiment pas mal pour des petits formats d applis et je vois parfaitement ce genre de format pour le projet LLM. Tu peux aussi deployer des applis avec HuggingFace en streamlit et c est tres rapide.')
 st.write('Tu trouveras beaucoup d infos très intéressantes pour le projet Arômes que nous allons construire à la rentrée, notamment la réunion du ')
+
 st.markdown("- Scentuarize")
 st.write('Julien partira un mois plus tôt pour faire une année supplémentaire sur un troisieme cycle. Il partira debut septembre. Nous avons eu une reunion avec David et une autre avec Julien et il a reussi a coller les deux dashboards')
 st.write('Il a reussi a pas mal avancer et a gagner en temps dans le traitements des donnees. Tu peux te rapprocher de lui pour reprendre le fil.')
 
-st.markdown("- Trois")
+st.markdown("- Gestion de stagiaires : Mathilde et Chloe")
+st.write('Mathilde sera parti quand tu seras de retour. Son code est consigne dans une dossier qui s appelle Sources et auquel elle nous a donne acces. Tu trouveras dans ta boite mail le lien à son drive. Voila ce que j aimerais que tu fasses : 
+st.write('1 - M')
+st.write('2 - ')
+st.write('3 - ') 
 
 st.divider()
 
@@ -35,13 +40,17 @@ st.write('L objectif est d integrer le travail de Lenaig dans un nouvel onglet d
 st.write('1 - Mettre en place une information sur l ecart-type de la prediction fait à partir des comparaisons reel/predit de son jeu de test')
 st.write('2 - Obtenir un jeu de validation (une centaine de formules de Yann Lenne - equipe de Laurent Bacoux) et faire tourner sur l appli directement. En sortir une valeur pratique de l ecart type')
 st.write('3 - Ameliorer l UI de maniere simple')
-st.write('De maniere generale, laisse la progresse à son rythme et integre son travail à te dernière version de TechniScent quand elle a fini. Pense aussi à demander à François le nouveau logo et une petite palette de couleur pour mettre le nouvel UI de TechniScent en place').
+st.write('De maniere generale, laisse la progresse à son rythme et integre son travail à te dernière version de TechniScent quand elle a fini. Pense aussi à demander à François le nouveau logo et une petite palette de couleur pour mettre le nouvel UI de TechniScent en place.')
+
+st.markdown("- Projet Arômes")
+
 
 st.divider()
 
 message = st.chat_message("user")
 message.write("François")
 
+st.markdown("- TechniScent")
 st.write("Texte ici")
 
 
