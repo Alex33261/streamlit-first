@@ -3,7 +3,7 @@ from PIL import Image
 
 from PIL import Image
 
-image = Image.open('GuillaumeSourireMagique.png')
+image = Image.open('GuillaumeSourireMagique.jpg')
 st.image(image, caption='Un BG se cache dans cette image. Pouvez-vous le retrouver ?')
 
 st.title('To do list pour une reprise en douceur')
