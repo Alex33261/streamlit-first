@@ -31,7 +31,7 @@ st.write('Mathilde sera parti quand tu seras de retour. Son code est consigne da
 st.write('1 - Prendre son dossier dans le cloud et le mettre au propre dans Gitlab - le repo existe deja')
 st.write('2 - Te rapprocher de Fanny pour promouvoir l outil dans son equipe car Mathilde n a pas eu beaucoup de temps pour le faire.')
 
-st.write('Pour Chloe, on s est vu ensemble ce matin du 4 aout et les choses sont claires pour elle. Elle va se pencher sur une appli ou il y a du click event. Regarde avec elle si elle a des galeres de maniere generale.
+st.write('Pour Chloe, on s est vu ensemble ce matin du 4 aout et les choses sont claires pour elle. Elle va se pencher sur une appli ou il y a du click event. Regarde avec elle si elle a des galeres de maniere generale.')
 
 st.divider()
 
