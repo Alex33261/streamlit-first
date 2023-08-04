@@ -18,7 +18,10 @@ message.write("Guillaume")
 
 st.markdown("- LLM ")
 st.write('Comme tu le vois, on a découvert streamlit. A mon avis c est vraiment pas mal pour des petits formats d applis et je vois parfaitement ce genre de format pour le projet LLM. Tu peux aussi deployer des applis avec HuggingFace en streamlit et c est tres rapide.')
-st.write('Tu trouveras beaucoup d infos très intéressantes pour le projet Arômes que nous allons construire à la rentrée, notamment la réunion du ')
+st.write('Tu trouveras beaucoup d infos très intéressantes pour le projet Arômes que nous allons construire à la rentrée, notamment la réunion du 22 aout. Ce sont des infos techniques qui pourraient t aider à te projeter dans quelque chose de concret')
+st.write('https://langchain-examples.streamlit.app/')
+st.write('dd')
+st.write('dd')
 
 st.markdown("- Scentuarize")
 st.write('Julien partira un mois plus tôt pour faire une année supplémentaire sur un troisieme cycle. Il partira debut septembre. Nous avons eu une reunion avec David et une autre avec Julien et il a reussi a coller les deux dashboards')
@@ -26,9 +29,8 @@ st.write('Il a reussi a pas mal avancer et a gagner en temps dans le traitements
 
 st.markdown("- Gestion de stagiaires : Mathilde et Chloe")
 st.write('Mathilde sera parti quand tu seras de retour. Son code est consigne dans une dossier qui s appelle Sources et auquel elle nous a donne acces. Tu trouveras dans ta boite mail le lien à son drive. Voila ce que j aimerais que tu fasses')
-st.write('1 - M')
-st.write('2 - ')
-st.write('3 - ') 
+st.write('1 - Prendre son dossier dans le cloud et le mettre au propre dans Gitlab - le repo existe deja')
+st.write('2 - Te rapprocher de Fanny pour promouvoir l outil dans son equipe car Mathilde n a pas eu beaucoup de temps pour le faire.')
 
 st.divider()
 
@@ -43,7 +45,9 @@ st.write('3 - Ameliorer l UI de maniere simple')
 st.write('De maniere generale, laisse la progresse à son rythme et integre son travail à te dernière version de TechniScent quand elle a fini. Pense aussi à demander à François le nouveau logo et une petite palette de couleur pour mettre le nouvel UI de TechniScent en place.')
 
 st.markdown("- Projet Arômes")
-
+st.write('https://langchain-text-summarization.streamlit.app/')
+st.write('https://nlu.johnsnowlabs.com/')
+st.write('https://github.com/JohnSnowLabs/nlu')
 
 st.divider()
 
