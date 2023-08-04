@@ -69,6 +69,10 @@ st.write("Construire les differents univers et les peupler. On validera une une 
 st.markdown("- Tracking des applis")
 st.write("Mettre les trackers dans les applis qui en ont besoin. Analyser les usages et construire le nouveau portail.")
 
+st.divider()
+
+st.write('Voila. En cas d urgence je reste joignable sur mon telephone. Bon courage a vous trois. Alex <3')
+
 
 
 
