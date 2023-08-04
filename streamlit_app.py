@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.balloons()
+st.toast('Mr Stay-Puft')
 
 image = Image.open('GuillaumeSourireMagique.jpg')
 st.image(image, caption='Un BG se cache dans cette image. Pouvez-vous le retrouver ?')
