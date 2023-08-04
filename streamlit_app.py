@@ -32,7 +32,6 @@ message.write("Souliman")
 
 st.divider()
 
-st.subheader('Activite François')
 message = st.chat_message("user")
 message.write("François")
 
