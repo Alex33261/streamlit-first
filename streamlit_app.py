@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+st.image('./GuillaumeSourireMagique.png')
 st.title('To do list pour une reprise en douceur')
 
 st.subheader('Guillaume')
