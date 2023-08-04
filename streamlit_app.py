@@ -30,6 +30,11 @@ st.divider()
 message = st.chat_message("user")
 message.write("Souliman")
 
+st.markdown("- TechniScent")
+st.write('L objectif est d integrer le travail de Lenaig dans un nouvel onglet de TechniScent avant la reunion du 8 septembre. J aimerais que tu puisse suivre son travail. Voila ce qu elle a à faire : 
+         1 - Mettre en place une information sur l ecart-type de la prediction (fait à partir des comparaisons reel/predit de son jeu de test)
+         2 - Obtenir un jeu de validation (une centaine de formules de Yann Lenne - equipe de Laurent Bacoux) et faire tourner sur l appli directement. En sortir un ecart-type "live".
+         2 - Ameliorer l'UI de maniere simple')
 
 
 st.divider()
