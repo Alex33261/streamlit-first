@@ -1,6 +1,11 @@
 import streamlit as st
+from PIL import Image
 
-#st.image('streamlit-first/GuillaumeSourireMagique.png')
+from PIL import Image
+
+image = Image.open('GuillaumeSourireMagique.png')
+st.image(image, caption='Un BG se cache dans cette image. Pouvez-vous le retrouver ?')
+
 st.title('To do list pour une reprise en douceur')
 
 message = st.chat_message("assistant")
