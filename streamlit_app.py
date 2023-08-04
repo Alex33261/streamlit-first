@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-#st.ballons()
+st.balloons()
 
 image = Image.open('GuillaumeSourireMagique.jpg')
 st.image(image, caption='Un BG se cache dans cette image. Pouvez-vous le retrouver ?')
@@ -9,7 +9,9 @@ st.image(image, caption='Un BG se cache dans cette image. Pouvez-vous le retrouv
 st.title('To-do list pour une reprise en douceur')
 
 message = st.chat_message("assistant")
-message.write("Note importante : A compter du XXX tous nos projets seront dans Orchestra. Pensez à bien mettre à jour tous vos projets dans le logiciel. Le lien est le suivant https://mane.orchestra-ppm.cloud/cpms/")
+message.write("Note importante : A compter de votre retour, tous vos projets doivent être dans Orchestra. Pensez donc à bien mettre à jour tous vos projets dans le logiciel. Le lien est le suivant https://mane.orchestra-ppm.cloud/cpms/")
+message.write("A compte du 28 aout, nous ferons des reunions de suivi de projets de 30 mn par personne pour strucuter les (nombreux) projets que nous avons.")
+
 
 st.divider()
 
