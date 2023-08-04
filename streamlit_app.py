@@ -11,8 +11,7 @@ message.write("Hello Guillaume, alors ces vacances ? Pas trop chaud ? Voilà le 
 st.markdown(st.subheader("- Orchestra "))
 
 st.markdown("- LLM ")
-st.write('Comme tu le vois, on a découvert streamlit. A mon avis c est vraiment pas mal pour des petits formats d applis et je vois parfaitement ce genre de format pour le projet LLM. 
-Tu peux aussi deployer des applis avec HuggingFace en streamlit et c est tres rapide.')
+st.write('Comme tu le vois, on a découvert streamlit. A mon avis c est vraiment pas mal pour des petits formats d applis et je vois parfaitement ce genre de format pour le projet LLM. Tu peux aussi deployer des applis avec HuggingFace en streamlit et c est tres rapide.')
 
 st.markdown(st.subheader("- Scentuarize"))
 st.write('Julien partira un mois plus tôt pour faire une année supplémentaire.')
