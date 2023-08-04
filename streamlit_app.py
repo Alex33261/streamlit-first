@@ -35,6 +35,7 @@ st.write('L objectif est d integrer le travail de Lenaig dans un nouvel onglet d
 st.write('1 - Mettre en place une information sur l ecart-type de la prediction fait à partir des comparaisons reel/predit de son jeu de test')
 st.write('2 - Obtenir un jeu de validation (une centaine de formules de Yann Lenne - equipe de Laurent Bacoux) et faire tourner sur l appli directement. En sortir une valeur pratique de l ecart type')
 st.write('3 - Ameliorer l UI de maniere simple')
+st.write('De maniere generale, laisse la progresse à son rythme et integre son travail à te dernière version de TechniScent quand elle a fini. Pense aussi à demander à François le nouveau logo et une petite palette de couleur pour mettre le nouvel UI de TechniScent en place').
 
 st.divider()
 
