@@ -1,11 +1,11 @@
 import streamlit as st
 
-st.image('streamlit-first/GuillaumeSourireMagique.png')
+#st.image('streamlit-first/GuillaumeSourireMagique.png')
 st.title('To do list pour une reprise en douceur')
 
 st.subheader('Guillaume')
 message = st.chat_message("assistant")
-message.write("Hello Guillaume, alors ces vacances ? Pas trop chaud ?")
+message.write("Hello Guillaume, alors ces vacances ? Pas trop chaud ? Voilà le topo pour une reprise en douceur...")
 
 st.markdown(st.subheader("- LLM "))
 st.write('Comme tu le vois, on a découvert streamlit. A mon avis c est vraiment pas mal pour des petits formats d applis et je vois parfaitement ce genre de format pour le projet LLM. Tu peux aussi deployer des applis avec HuggingFace en streamlit et c est tres rapide.')
