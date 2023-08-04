@@ -33,3 +33,9 @@ message = st.chat_message("assistant")
 message.write("Hello Souliman, comment ca va mon gâte?")
 
 st.text('This is some text.')
+
+col1, col2 = st.columns(2)
+col1.write('Column 1')
+col2.write('Column 2')
+
+
