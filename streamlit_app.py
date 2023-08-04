@@ -2,8 +2,9 @@ import streamlit as st
 
 #st.image('streamlit-first/GuillaumeSourireMagique.png')
 st.title('To do list pour une reprise en douceur')
-message = st.chat_message("Note importante")
-message.write("A compter du XXX tous nos projets seront dans Orchestra. Pensez à bien mettre à jour tous vos projets dans le logiciel. Le lien est le suivant https://mane.orchestra-ppm.cloud/cpms/")
+
+message = st.chat_message("assistant")
+message.write("Note importante : A compter du XXX tous nos projets seront dans Orchestra. Pensez à bien mettre à jour tous vos projets dans le logiciel. Le lien est le suivant https://mane.orchestra-ppm.cloud/cpms/")
 
 st.subheader('Guillaume')
 st.caption('Balloons. Hundreds of them...')
@@ -23,8 +24,7 @@ st.markdown("- Trois")
 st.divider()
 
 st.subheader('Souliman')
-message = st.chat_message("assistant")
-message.write("Hello Souliman, comment ca va ?")
+
 st.text('This is some text.')
 
 st.divider()
