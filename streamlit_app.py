@@ -25,7 +25,7 @@ st.write('Julien partira un mois plus tôt pour faire une année supplémentaire
 st.write('Il a reussi a pas mal avancer et a gagner en temps dans le traitements des donnees. Tu peux te rapprocher de lui pour reprendre le fil.')
 
 st.markdown("- Gestion de stagiaires : Mathilde et Chloe")
-st.write('Mathilde sera parti quand tu seras de retour. Son code est consigne dans une dossier qui s appelle Sources et auquel elle nous a donne acces. Tu trouveras dans ta boite mail le lien à son drive. Voila ce que j aimerais que tu fasses : 
+st.write('Mathilde sera parti quand tu seras de retour. Son code est consigne dans une dossier qui s appelle Sources et auquel elle nous a donne acces. Tu trouveras dans ta boite mail le lien à son drive. Voila ce que j aimerais que tu fasses')
 st.write('1 - M')
 st.write('2 - ')
 st.write('3 - ') 
