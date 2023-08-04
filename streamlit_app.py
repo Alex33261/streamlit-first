@@ -6,7 +6,7 @@ st.balloons()
 image = Image.open('GuillaumeSourireMagique.jpg')
 st.image(image, caption='Un BG se cache dans cette image. Pouvez-vous le retrouver ?')
 
-st.title('C est la reprise !')
+st.title('        C est la reprise !')
 
 message = st.chat_message("assistant")
 message.write("Note importante : A compter de votre retour, tous vos projets doivent être dans Orchestra. Pensez donc à bien mettre à jour tous vos projets dans le logiciel. Le lien est le suivant https://mane.orchestra-ppm.cloud/cpms/")
