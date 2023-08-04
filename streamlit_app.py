@@ -1,14 +1,13 @@
 import streamlit as st
 from PIL import Image
 
-from PIL import Image
 
 image = Image.open('GuillaumeSourireMagique.jpg')
 st.image(image, caption='Un BG se cache dans cette image. Pouvez-vous le retrouver ?')
 
-st.title('To do list pour une reprise en douceur')
+st.title('To-do list pour une reprise en douceur')
 
-message = st.chat_message("assistant")
+message = st.chat_message("user")
 message.write("Note importante : A compter du XXX tous nos projets seront dans Orchestra. Pensez à bien mettre à jour tous vos projets dans le logiciel. Le lien est le suivant https://mane.orchestra-ppm.cloud/cpms/")
 
 st.subheader('Guillaume')
